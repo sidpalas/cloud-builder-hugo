@@ -1,4 +1,4 @@
-Docker Image used to build hugo site within Cloud Build pipeline. 
+Docker Image used to build hugo site within Cloud Build pipeline.
 
 ### Based on:
 https://github.com/GoogleCloudPlatform/cloud-builders-community/tree/master/hugo
@@ -10,5 +10,5 @@ To generate a static web-site from its sources:
 
 ```
 steps:
-- name: gcr.io/$PROJECT_ID/hugo
+- name: sidpalas/cloud-builder-hugo
 ```
